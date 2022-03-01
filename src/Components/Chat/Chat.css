@@ -1,0 +1,96 @@
+.chatWindow{
+    margin-top: 20px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 700px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color:black;
+    border-top:1px;
+    border-style:solid;
+    border-color:rgb(32, 33, 36,0.3);
+    border-radius: 15px;
+}
+
+#msgContainer{
+    height: 70%;
+    border-top:1px;
+    border-left:0px;
+    border-right:0px;
+    border-style:solid;
+    border-color:rgb(32, 33, 36,0.3);
+    overflow-y: scroll;
+    background-color: #f4f4f4;
+    scrollbar-width: unset;
+}
+
+.msgContainer::-webkit-scrollbar { width: 0 !important }
+
+.inputBox{
+    height: 20%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inputBox > input{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    padding:0px;
+    width: 100%;
+    height: 50%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    border-top:0px;
+    border-right: 0px;
+    border-left: 0px;
+    outline:0;
+}
+
+#msgContainer{
+    display: flex;
+    justify-content:stretch;
+}
+
+#senderContainer,#receiverContainer {
+    width: 50%;
+    height: 100%;
+}
+
+#senderContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sender,.receiver{
+    width: 80%;
+    max-width: max-content;
+    min-height: max-content;
+    border: inherit;
+    word-wrap: break-word;
+    border:1px solid rgb(32, 33, 36,0.3);
+    border-radius: 10px;
+    padding:1%;
+    background-color: #d0f1de;
+}
+
+.sender{
+    margin-right: 10px;
+}
+
+.receiver{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+    .chatWindow {
+        width: 90%;
+    }
+    .inputBox > input ,.sender,.receiver{
+      font-size: 18px;
+    }
+  }
