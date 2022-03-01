@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-MirrorChat_UI/static/css/main.ce9b1dde.chunk.css",
+    "main.js": "/React-MirrorChat_UI/static/js/main.74a490c7.chunk.js",
+    "main.js.map": "/React-MirrorChat_UI/static/js/main.74a490c7.chunk.js.map",
+    "runtime-main.js": "/React-MirrorChat_UI/static/js/runtime-main.cc53f42d.js",
+    "runtime-main.js.map": "/React-MirrorChat_UI/static/js/runtime-main.cc53f42d.js.map",
+    "static/js/2.b1c3158a.chunk.js": "/React-MirrorChat_UI/static/js/2.b1c3158a.chunk.js",
+    "static/js/2.b1c3158a.chunk.js.map": "/React-MirrorChat_UI/static/js/2.b1c3158a.chunk.js.map",
+    "index.html": "/React-MirrorChat_UI/index.html",
+    "precache-manifest.5f8dcc6da55e6c5276bd960b845cf6cf.js": "/React-MirrorChat_UI/precache-manifest.5f8dcc6da55e6c5276bd960b845cf6cf.js",
+    "service-worker.js": "/React-MirrorChat_UI/service-worker.js",
+    "static/css/main.ce9b1dde.chunk.css.map": "/React-MirrorChat_UI/static/css/main.ce9b1dde.chunk.css.map",
+    "static/js/2.b1c3158a.chunk.js.LICENSE.txt": "/React-MirrorChat_UI/static/js/2.b1c3158a.chunk.js.LICENSE.txt",
+    "static/media/chatImage.png": "/React-MirrorChat_UI/static/media/chatImage.f6d01093.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc53f42d.js",
+    "static/js/2.b1c3158a.chunk.js",
+    "static/css/main.ce9b1dde.chunk.css",
+    "static/js/main.74a490c7.chunk.js"
+  ]
+}
